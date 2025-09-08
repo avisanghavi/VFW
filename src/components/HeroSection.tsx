@@ -97,14 +97,9 @@ const HeroSection = () => {
               
               {/* Video Preview */}
               <div className="relative group cursor-pointer">
-                <div className="aspect-video bg-gradient-to-br from-gray-50 to-gray-100 rounded-2xl border-2 border-gray-200/50 flex items-center justify-center overflow-hidden">
-                  {/* Animated Background Pattern */}
-                  <div className="absolute inset-0 opacity-5">
-                    <div className="absolute inset-0 bg-gradient-to-r from-purple-500 via-transparent to-orange-500 animate-gradient-x"></div>
-                  </div>
-                  
+                <div className="aspect-video bg-gradient-to-br from-gray-50 to-gray-100 rounded-2xl border-2 border-gray-200/50 flex items-center justify-center">
                   {/* Play Button */}
-                  <div className="relative z-10 w-20 h-20 bg-white rounded-full shadow-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                  <div className="w-20 h-20 bg-white rounded-full shadow-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
                     <Play className="w-8 h-8 text-purple-600 ml-1" fill="currentColor" />
                   </div>
                   
