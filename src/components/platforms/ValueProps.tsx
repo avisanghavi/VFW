@@ -16,6 +16,7 @@ export default function ValueProps() {
             </div>
           ))}
         </div>
+        
       </div>
     </section>
   );

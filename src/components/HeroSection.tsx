@@ -6,8 +6,8 @@ const HeroSection = () => {
     <section className="relative min-h-screen flex items-center overflow-hidden">
       {/* Background Elements */}
       <div className="absolute inset-0 bg-gradient-to-br from-white via-purple-50/30 to-orange-50/20"></div>
-      <div className="absolute top-1/4 -left-40 w-80 h-80 bg-purple-200/20 rounded-full blur-3xl"></div>
-      <div className="absolute bottom-1/4 -right-40 w-96 h-96 bg-orange-200/20 rounded-full blur-3xl"></div>
+      <div className="absolute top-1/4 -left-40 w-72 h-72 bg-purple-200/15 rounded-full blur-2xl will-change-transform"></div>
+      <div className="absolute bottom-1/4 -right-40 w-80 h-80 bg-orange-200/15 rounded-full blur-2xl will-change-transform"></div>
       
       <div className="container relative z-10">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
@@ -74,15 +74,19 @@ const HeroSection = () => {
             <div className="relative bg-white/80 backdrop-blur-sm rounded-3xl p-8 shadow-2xl border border-white/50">
               {/* Header */}
               <div className="flex items-start gap-4 mb-8">
-                <div className="w-12 h-12 bg-gradient-to-br from-purple-500 to-purple-600 rounded-2xl flex items-center justify-center shadow-lg">
-                  <Play className="w-6 h-6 text-white" />
-                </div>
+                <img
+                  src="/icon.svg?v=2"
+                  alt="Play demo"
+                  className="w-12 h-12 rounded-2xl shadow-lg"
+                />
                 <div className="flex-1">
                   <h3 className="text-xl font-bold text-gray-900 mb-2">
-                    AI Growth Agents in Action
+                    See Your AI Growth Agents in Action
                   </h3>
                   <p className="text-gray-600 text-sm leading-relaxed">
-                    Watch highlights being auto-extracted → Ad creation → Real-time ROAS optimization
+                    No Content? No Problem. We Handle Everything.
+                    <br />
+                    Find Creators → Extract Gold → Build Campaigns → Scale Profits 24/7
                   </p>
                 </div>
               </div>

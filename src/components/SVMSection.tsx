@@ -58,11 +58,8 @@ const SVMSection = () => {
 
         <div className="text-center">
           <Button variant="gradient" size="xl" className="mb-4">
-            Start Free with Highlights
+            Partner With Us →
           </Button>
-          <p className="text-sm text-muted-foreground">
-            No credit card required.
-          </p>
         </div>
       </div>
     </section>

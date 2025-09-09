@@ -5,6 +5,7 @@ import PlatformsHero from '@/components/platforms/PlatformsHero'
 import ValueProps from '@/components/platforms/ValueProps'
 import WhoShouldIntegrate from '@/components/platforms/WhoShouldIntegrate'
 import TechIntegration from '@/components/platforms/TechIntegration'
+import SVMSection from '@/components/SVMSection'
 import PlatformsCTA from '@/components/platforms/PlatformsCTA'
 
 export const metadata: Metadata = {
@@ -21,6 +22,7 @@ export default function PartnersPage() {
         <PlatformsHero />
         <ValueProps />
         <WhoShouldIntegrate />
+        <SVMSection />
         <TechIntegration />
         <PlatformsCTA />
       </main>

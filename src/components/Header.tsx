@@ -5,10 +5,12 @@ const Header = () => {
     <header className="sticky top-0 z-50 w-full bg-white border-b border-gray-100">
       <div className="container max-w-7xl mx-auto flex h-16 items-center justify-between px-6">
         {/* Logo */}
-        <div className="flex flex-col">
-          <span className="text-2xl font-bold text-gradient">VideoForce.ai</span>
-          <span className="text-xs text-gray-500 -mt-1">Where Human Creativity Meets AI Brilliance</span>
-        </div>
+        <a href="/" className="flex items-center" aria-label="VideoForce.ai Home">
+          <div className="flex flex-col leading-tight">
+            <span className="font-bold tracking-tight text-[22px] md:text-[28px] bg-gradient-to-r from-brand-purple to-brand-orange bg-clip-text text-transparent">VideoForce.ai</span>
+            <span className="text-[10px] md:text-xs text-gray-500 mt-0.5">Where Human Creativity Meets AI Brilliance</span>
+          </div>
+        </a>
 
         {/* Navigation */}
         <nav className="hidden lg:flex items-center space-x-8">
@@ -18,7 +20,7 @@ const Header = () => {
           <a href="#highlights" className="text-sm font-medium text-gray-700 hover:text-brand-purple transition-colors">
             Highlights
           </a>
-          <a href="#performance-media" className="text-sm font-medium text-gray-700 hover:text-brand-purple transition-colors">
+          <a href="#proof" className="text-sm font-medium text-gray-700 hover:text-brand-purple transition-colors">
             Performance Media
           </a>
           <a href="/partners" className="text-sm font-medium text-gray-700 hover:text-brand-purple transition-colors">

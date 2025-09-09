@@ -65,6 +65,11 @@ export const metadata: Metadata = {
   verification: {
     google: 'your-google-verification-code',
     // Add other verification codes as needed
+  },
+  icons: {
+    icon: '/icon.svg?v=2',
+    shortcut: '/icon.svg?v=2',
+    apple: '/icon.svg?v=2',
   }
 }
 

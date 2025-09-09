@@ -211,4 +211,7 @@
   .animate-scroll {
     animation: scroll 30s linear infinite;
   }
+  @media (prefers-reduced-motion: reduce) {
+    .animate-scroll { animation: none !important; transform: none !important; }
+  }
 }

@@ -1,5 +1,11 @@
 const BrandsSection = () => {
-  const brands = ["Build-A-Bear", "Crunch Fitness", "JBL", "DIG", "Tire Agent", "Coca-Cola", "Nike", "Samsung", "Amazon", "Microsoft"];
+  const logos = [
+    { alt: 'Build-A-Bear', src: '/logos/BAB_Logo.jpg' },
+    { alt: 'World Gym', src: '/logos/WorldGym_Logo.png' },
+    { alt: 'DIG', src: '/logos/Dig_Logo.png' },
+    { alt: 'Fitness SF', src: '/logos/FitnessSF_Logo.png' },
+    { alt: 'Tire Agent', src: '/logos/TireAgent_Logo.png' },
+  ];
 
   return (
     <section className="py-16 bg-background">
@@ -12,22 +18,14 @@ const BrandsSection = () => {
           {/* Scrolling marquee container */}
           <div className="relative overflow-hidden mt-8">
             <div className="flex animate-scroll">
-              {/* First set of brands */}
-              {brands.map((brand, index) => (
-                <div
-                  key={`first-${index}`}
-                  className="flex-shrink-0 mx-8 text-lg font-medium text-muted-foreground opacity-60 whitespace-nowrap"
-                >
-                  {brand}
-                </div>
-              ))}
-              {/* Duplicate set for seamless loop */}
-              {brands.map((brand, index) => (
-                <div
-                  key={`second-${index}`}
-                  className="flex-shrink-0 mx-8 text-lg font-medium text-muted-foreground opacity-60 whitespace-nowrap"
-                >
-                  {brand}
+              {logos.concat(logos).map((l, i) => (
+                <div key={i} className="flex-shrink-0 mx-10 opacity-80">
+                  <img
+                    src={l.src}
+                    alt={l.alt}
+                    loading="lazy"
+                    className="h-8 md:h-10 object-contain"
+                  />
                 </div>
               ))}
             </div>

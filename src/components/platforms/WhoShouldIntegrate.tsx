@@ -53,20 +53,7 @@ export default function WhoShouldIntegrate() {
         <p className="text-center text-muted-foreground max-w-3xl mx-auto">
           If your users create, store, or distribute video content, Highlights helps them use it more effectively.
         </p>
-        <div className="flex items-center justify-center gap-3 mt-5">
-          <a
-            href="mailto:partnerships@videoforce.ai"
-            className="inline-flex px-4 py-2 rounded-md text-white font-medium bg-gradient-to-r from-brand-purple to-brand-orange shadow"
-          >
-            Talk to Partnerships
-          </a>
-          <a
-            href="/api"
-            className="inline-flex px-4 py-2 rounded-md border border-border text-foreground hover:bg-muted"
-          >
-            View API / MCP Docs
-          </a>
-        </div>
+        
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-8">
           {CARDS.map((c) => (
@@ -82,6 +69,21 @@ export default function WhoShouldIntegrate() {
               </ul>
             </div>
           ))}
+        </div>
+        {/* CTAs after the 4 cards */}
+        <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
+          <a
+            href="mailto:partnerships@videoforce.ai"
+            className="inline-flex items-center justify-center px-5 py-2.5 rounded-lg text-white font-semibold bg-gradient-to-r from-brand-purple to-brand-orange shadow-lg hover:-translate-y-0.5 transition-transform"
+          >
+            Talk to Partnerships
+          </a>
+          <a
+            href="/api"
+            className="inline-flex items-center justify-center px-5 py-2.5 rounded-lg border border-border text-foreground hover:bg-muted"
+          >
+            View API / MCP Docs
+          </a>
         </div>
       </div>
     </section>

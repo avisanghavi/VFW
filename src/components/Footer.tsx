@@ -69,9 +69,10 @@ const Footer = () => {
       <div className="container">
         {/* Recognition Banner */}
         <div className="text-center mb-12">
-          <div className="inline-flex items-center gap-2 text-sm text-orange-400 mb-6">
-            <span>🔥</span>
-            <span>VideoForce.ai recognized by Microsoft CEO Satya Nadella and OpenAI CEO Sam Altman at Ignite Conference for pioneering Azure AI Partnership adoption</span>
+          <div className="inline-flex items-center gap-2 text-sm text-orange-400 mb-6 max-w-3xl mx-auto">
+            <span aria-hidden>🔥</span>
+            <span className="hidden sm:inline">VideoForce.ai recognized by Microsoft CEO Satya Nadella and OpenAI CEO Sam Altman at Ignite Conference for pioneering Azure AI Partnership adoption</span>
+            <span className="sm:hidden">Recognized by Microsoft and OpenAI leadership for Azure AI partnership</span>
           </div>
           
           <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
