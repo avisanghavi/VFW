@@ -2,42 +2,42 @@ import { Button } from "@/components/ui/button";
 
 const Header = () => {
   return (
-    <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container flex h-16 items-center justify-between">
+    <header className="sticky top-0 z-50 w-full bg-white border-b border-gray-100">
+      <div className="container max-w-7xl mx-auto flex h-16 items-center justify-between px-6">
         {/* Logo */}
-        <div className="flex items-center space-x-2">
+        <div className="flex flex-col">
           <span className="text-2xl font-bold text-gradient">VideoForce.ai</span>
-          <span className="text-sm text-muted-foreground">Where Human Creativity Meets AI Brilliance</span>
+          <span className="text-xs text-gray-500 -mt-1">Where Human Creativity Meets AI Brilliance</span>
         </div>
 
         {/* Navigation */}
-        <nav className="hidden md:flex items-center space-x-8">
-          <a href="#creator-sourcing" className="text-sm font-medium text-foreground hover:text-brand-purple transition-smooth">
+        <nav className="hidden lg:flex items-center space-x-8">
+          <a href="#creator-sourcing" className="text-sm font-medium text-gray-700 hover:text-brand-purple transition-colors">
             Creator Sourcing
           </a>
-          <a href="#highlights" className="text-sm font-medium text-foreground hover:text-brand-purple transition-smooth">
+          <a href="#highlights" className="text-sm font-medium text-gray-700 hover:text-brand-purple transition-colors">
             Highlights
           </a>
-          <a href="#performance-media" className="text-sm font-medium text-foreground hover:text-brand-purple transition-smooth">
+          <a href="#performance-media" className="text-sm font-medium text-gray-700 hover:text-brand-purple transition-colors">
             Performance Media
           </a>
-          <a href="#partners" className="text-sm font-medium text-foreground hover:text-brand-purple transition-smooth">
+          <a href="/partners" className="text-sm font-medium text-gray-700 hover:text-brand-purple transition-colors">
             Partners
           </a>
-          <a href="#resources" className="text-sm font-medium text-foreground hover:text-brand-purple transition-smooth">
+          <a href="#resources" className="text-sm font-medium text-gray-700 hover:text-brand-purple transition-colors">
             Resources
           </a>
-          <a href="#about" className="text-sm font-medium text-foreground hover:text-brand-purple transition-smooth">
+          <a href="#about" className="text-sm font-medium text-gray-700 hover:text-brand-purple transition-colors">
             About Us
           </a>
         </nav>
 
         {/* CTA Buttons */}
-        <div className="flex items-center space-x-4">
-          <Button variant="gradient" size="lg" className="hidden sm:inline-flex">
+        <div className="flex items-center space-x-3">
+          <Button variant="gradient" size="lg" className="rounded-lg font-medium">
             Start Free
           </Button>
-          <Button variant="brand-outline" size="lg">
+          <Button variant="outline" size="lg" className="rounded-lg font-medium border-gray-300 text-gray-700 hover:bg-gray-50">
             Book a Demo
           </Button>
         </div>

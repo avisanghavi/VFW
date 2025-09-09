@@ -69,14 +69,6 @@ const HeroSection = () => {
 
           {/* Right Content - Modern Demo Preview */}
           <div className="relative lg:pl-8">
-            {/* Floating Elements */}
-            <div className="absolute -top-4 -right-4 w-20 h-20 bg-gradient-to-br from-purple-500 to-purple-600 rounded-2xl shadow-lg animate-float opacity-90 flex items-center justify-center">
-              <Zap className="w-8 h-8 text-white" />
-            </div>
-            
-            <div className="absolute -bottom-8 -left-8 w-16 h-16 bg-gradient-to-br from-orange-500 to-orange-600 rounded-xl shadow-lg animate-float-delayed opacity-90 flex items-center justify-center">
-              <Sparkles className="w-6 h-6 text-white" />
-            </div>
 
             {/* Main Demo Card */}
             <div className="relative bg-white/80 backdrop-blur-sm rounded-3xl p-8 shadow-2xl border border-white/50">

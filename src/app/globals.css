@@ -189,6 +189,11 @@
     0%, 100% { transform: translateX(-100%); }
     50% { transform: translateX(100%); }
   }
+
+  @keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
   
   .animate-float {
     animation: float 6s ease-in-out infinite;
@@ -201,5 +206,9 @@
   
   .animate-gradient-x {
     animation: gradient-x 3s ease-in-out infinite;
+  }
+
+  .animate-scroll {
+    animation: scroll 30s linear infinite;
   }
 }
