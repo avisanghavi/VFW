@@ -1,6 +1,7 @@
 "use client"
 
 import { useMemo, useState } from "react"
+import Image from "next/image"
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious, type CarouselApi } from "@/components/ui/carousel"
 
 const ProofSection = () => {
@@ -64,24 +65,26 @@ const ProofSection = () => {
   const [api, setApi] = useState<CarouselApi | null>(null)
   const [selected, setSelected] = useState(0)
 
-  // Company → logo path mapping (place logos into public/logos)
-  const logos: Record<string, string> = {
-    "Tire Agent": "/logos/TireAgent_Logo.png",
-    "DIG Restaurants": "/logos/Dig_Logo.png",
-    "World Gym": "/logos/WorldGym_Logo.png",
-    "Fitness SF": "/logos/FitnessSF_Logo.png",
-    "Build-A-Bear": "/logos/BAB_Logo.jpg",
-    "Museum of Ice Cream": "/logos/MOIC_Logo.png",
-  }
-
   const renderBrand = useMemo(() => {
-    return (company: string) => {
+    // Company → logo path mapping (place logos into public/logos)
+    const logos: Record<string, string> = {
+      "Tire Agent": "/logos/TireAgent_Logo.png",
+      "DIG Restaurants": "/logos/Dig_Logo.png",
+      "World Gym": "/logos/WorldGym_Logo.png",
+      "Fitness SF": "/logos/FitnessSF_Logo.png",
+      "Build-A-Bear": "/logos/BAB_Logo.jpg",
+      "Museum of Ice Cream": "/logos/MOIC_Logo.png",
+    }
+
+    const BrandRenderer = (company: string) => {
       const src = logos[company]
       if (src) {
         return (
-          <img
+          <Image
             src={src}
             alt={`${company} logo`}
+            width={32}
+            height={32}
             className="w-8 h-8 object-contain rounded"
           />
         )
@@ -92,6 +95,8 @@ const ProofSection = () => {
         </div>
       )
     }
+    BrandRenderer.displayName = 'BrandRenderer'
+    return BrandRenderer
   }, [])
 
   // Track selected slide for subtle scale/opacity effects

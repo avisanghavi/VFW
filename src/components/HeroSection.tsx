@@ -1,4 +1,5 @@
-import { Button } from "@/components/ui/button";
+import { Button } from "@/components/ui/button"
+import Image from "next/image";
 import { Play, Sparkles, ArrowRight, Zap } from "lucide-react";
 
 const HeroSection = () => {
@@ -74,9 +75,11 @@ const HeroSection = () => {
             <div className="relative bg-white/80 backdrop-blur-sm rounded-3xl p-8 shadow-2xl border border-white/50">
               {/* Header */}
               <div className="flex items-start gap-4 mb-8">
-                <img
-                  src="/icon.svg?v=2"
+                <Image
+                  src="/icon.svg"
                   alt="Play demo"
+                  width={48}
+                  height={48}
                   className="w-12 h-12 rounded-2xl shadow-lg"
                 />
                 <div className="flex-1">

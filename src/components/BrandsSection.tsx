@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 const BrandsSection = () => {
   const logos = [
     { alt: 'Build-A-Bear', src: '/logos/BAB_Logo.jpg' },
@@ -20,10 +22,11 @@ const BrandsSection = () => {
             <div className="flex animate-scroll">
               {logos.concat(logos).map((l, i) => (
                 <div key={i} className="flex-shrink-0 mx-10 opacity-80">
-                  <img
+                  <Image
                     src={l.src}
                     alt={l.alt}
-                    loading="lazy"
+                    width={120}
+                    height={40}
                     className="h-8 md:h-10 object-contain"
                   />
                 </div>
