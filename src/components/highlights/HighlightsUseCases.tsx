@@ -221,25 +221,6 @@ const HighlightsUseCases = () => {
           </div>
         </div>
 
-        {/* Conversion CTA */}
-        <div className="text-center mt-16">
-          <div className="bg-gradient-to-r from-purple-600 to-pink-600 rounded-3xl p-8 text-white">
-            <h3 className="text-2xl font-bold mb-4">Ready to Unlock Your Video ROI?</h3>
-            <p className="text-lg mb-6 opacity-90">
-              Join brands saving 90% of editing time while increasing engagement by 5X
-            </p>
-            <Button 
-              size="lg" 
-              className="bg-white text-purple-600 hover:bg-gray-100 text-lg px-8 py-4 h-auto rounded-xl shadow-lg"
-              onClick={() => window.open('https://app.videofusion.io/auth/sign-up', '_blank')}
-            >
-              <Play className="w-5 h-5 mr-2" />
-              Start Your Free Trial Now
-              <ArrowRight className="w-5 h-5 ml-2" />
-            </Button>
-            <p className="text-sm mt-4 opacity-75">Patented Small Video Model • No credit card required • Instant access</p>
-          </div>
-        </div>
 
       </div>
     </section>
