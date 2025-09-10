@@ -38,7 +38,7 @@ export default function BookCallClient() {
 
               {/* What You'll Get */}
               <div className="space-y-4">
-                <h3 className="text-lg font-semibold text-gray-900">What you'll get in this call:</h3>
+                <h3 className="text-lg font-semibold text-gray-900">What you&apos;ll get in this call:</h3>
                 <div className="space-y-3">
                   <div className="flex items-center gap-3">
                     <CheckCircle className="w-5 h-5 text-green-600 flex-shrink-0" />
@@ -65,12 +65,12 @@ export default function BookCallClient() {
               <div className="bg-white/90 backdrop-blur-sm rounded-3xl p-8 shadow-2xl border border-white/50">
                 <div className="text-center mb-6">
                   <h3 className="text-2xl font-bold text-gray-900 mb-2">Schedule Your Call</h3>
-                  <p className="text-gray-600">Tell us what you'd like to discuss</p>
+                  <p className="text-gray-600">Tell us what you&apos;d like to discuss</p>
                 </div>
 
                 {/* Interest Areas */}
                 <div className="space-y-3 mb-6">
-                  <h4 className="font-semibold text-gray-900">I'm interested in:</h4>
+                  <h4 className="font-semibold text-gray-900">I&apos;m interested in:</h4>
                   <div className="grid grid-cols-2 gap-2">
                     <div className="flex items-center gap-2 p-3 bg-purple-50 rounded-lg border border-purple-200">
                       <input type="checkbox" id="performance" className="rounded border-purple-300" />
