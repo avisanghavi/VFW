@@ -1,0 +1,33 @@
+import type { Metadata } from 'next'
+import Header from '@/components/Header'
+import Footer from '@/components/Footer'
+import HighlightsHero from '@/components/highlights/HighlightsHero'
+import HighlightsFeatures from '@/components/highlights/HighlightsFeatures'
+import HighlightsDemo from '@/components/highlights/HighlightsDemo'
+import SVMSection from '@/components/SVMSection'
+
+export const metadata: Metadata = {
+  title: 'VideoForce Highlights - Turn Any Video Into Viral Gold',
+  description: 'Stop spending hours editing. Our AI instantly finds your best hooks, killer CTAs, and social proof moments—then creates viral-ready clips for TikTok, Reels & YouTube Shorts.',
+  openGraph: {
+    title: 'VideoForce Highlights - Turn Any Video Into Viral Gold',
+    description: 'Stop spending hours editing. Our AI instantly finds your best hooks, killer CTAs, and social proof moments.',
+    url: 'https://videoforce.ai/highlights',
+    type: 'website',
+  },
+}
+
+export default function HighlightsPage() {
+  return (
+    <div className="min-h-screen bg-background">
+      <Header />
+      <main>
+        <HighlightsHero />
+        <HighlightsFeatures />
+        <HighlightsDemo />
+        <SVMSection />
+      </main>
+      <Footer />
+    </div>
+  )
+}

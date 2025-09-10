@@ -1,3 +1,5 @@
+"use client"
+
 import { Button } from "@/components/ui/button";
 import { Brain, BarChart, Zap, Target } from "lucide-react";
 
@@ -57,9 +59,17 @@ const SVMSection = () => {
         </div>
 
         <div className="text-center">
-          <Button variant="gradient" size="xl" className="mb-4">
-            Partner With Us →
+          <Button 
+            variant="gradient" 
+            size="xl" 
+            className="mb-4"
+            onClick={() => window.location.href = '/highlights'}
+          >
+            Experience SVM Technology →
           </Button>
+          <p className="text-sm text-muted-foreground">
+            Try our patent-protected Small Video Model with 10 minutes free processing
+          </p>
         </div>
       </div>
     </section>

@@ -17,7 +17,7 @@ const Header = () => {
           <a href="#creator-sourcing" className="text-sm font-medium text-gray-700 hover:text-brand-purple transition-colors">
             Creator Sourcing
           </a>
-          <a href="#highlights" className="text-sm font-medium text-gray-700 hover:text-brand-purple transition-colors">
+          <a href="/highlights" className="text-sm font-medium text-gray-700 hover:text-brand-purple transition-colors">
             Highlights
           </a>
           <a href="#proof" className="text-sm font-medium text-gray-700 hover:text-brand-purple transition-colors">
@@ -36,9 +36,11 @@ const Header = () => {
 
         {/* CTA Buttons */}
         <div className="flex items-center space-x-3">
-          <Button variant="gradient" size="lg" className="rounded-lg font-medium">
-            Start Free
-          </Button>
+          <a href="/highlights">
+            <Button variant="gradient" size="lg" className="rounded-lg font-medium">
+              Start Free
+            </Button>
+          </a>
           <Button variant="outline" size="lg" className="rounded-lg font-medium border-gray-300 text-gray-700 hover:bg-gray-50">
             Book a Demo
           </Button>

@@ -1,3 +1,5 @@
+"use client"
+
 import { Button } from "@/components/ui/button"
 import Image from "next/image";
 import { Play, Sparkles, ArrowRight, Zap } from "lucide-react";
@@ -42,6 +44,7 @@ const HeroSection = () => {
                   variant="gradient" 
                   size="xl" 
                   className="group relative overflow-hidden"
+                  onClick={() => window.location.href = '/highlights'}
                 >
                   <Play className="w-5 h-5 group-hover:scale-110 transition-transform" />
                   Start Free with Highlights
