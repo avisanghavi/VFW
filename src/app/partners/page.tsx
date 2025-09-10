@@ -2,7 +2,6 @@ import type { Metadata } from 'next'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import PlatformsHero from '@/components/platforms/PlatformsHero'
-import ValueProps from '@/components/platforms/ValueProps'
 import WhoShouldIntegrate from '@/components/platforms/WhoShouldIntegrate'
 import TechIntegration from '@/components/platforms/TechIntegration'
 import SVMSection from '@/components/SVMSection'
@@ -20,7 +19,6 @@ export default function PartnersPage() {
       <Header />
       <main>
         <PlatformsHero />
-        <ValueProps />
         <WhoShouldIntegrate />
         <SVMSection />
         <TechIntegration />
