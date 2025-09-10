@@ -36,7 +36,7 @@ const Header = () => {
 
         {/* CTA Buttons */}
         <div className="flex items-center space-x-3">
-          <a href="https://app.videofusion.io/auth/sign-in" target="_blank" rel="noopener noreferrer">
+          <a href="/sign-in">
             <Button variant="ghost" size="lg" className="rounded-lg font-medium text-gray-700 hover:text-brand-purple hover:bg-gray-50">
               Sign In
             </Button>
