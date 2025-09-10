@@ -14,7 +14,7 @@ const Header = () => {
 
         {/* Navigation */}
         <nav className="hidden lg:flex items-center space-x-8">
-          <a href="#creator-sourcing" className="text-sm font-medium text-gray-700 hover:text-brand-purple transition-colors">
+          <a href="/creator-sourcing" className="text-sm font-medium text-gray-700 hover:text-brand-purple transition-colors">
             Creator Sourcing
           </a>
           <a href="/highlights" className="text-sm font-medium text-gray-700 hover:text-brand-purple transition-colors">
