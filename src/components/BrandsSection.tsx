@@ -10,7 +10,7 @@ const BrandsSection = () => {
   ];
 
   return (
-    <section className="py-16 bg-background">
+    <section className="py-12 bg-background">
       <div className="container">
         <div className="text-center">
           <h2 className="text-2xl font-bold mb-4">

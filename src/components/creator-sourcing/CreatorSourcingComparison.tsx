@@ -65,10 +65,10 @@ const CreatorSourcingComparison = () => {
   }
 
   return (
-    <section className="py-20 bg-gray-50">
+    <section className="py-12 bg-gray-50">
       <div className="container">
         {/* Header */}
-        <div className="text-center mb-16">
+        <div className="text-center mb-12">
           <span className="text-sm font-semibold text-brand-purple uppercase tracking-wide">
             COMPETITIVE ANALYSIS
           </span>

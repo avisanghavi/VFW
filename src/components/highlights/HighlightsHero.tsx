@@ -13,7 +13,7 @@ const HighlightsHero = () => {
       </div>
 
       <div className="container relative z-10">
-        <div className="grid lg:grid-cols-2 gap-12 items-center min-h-screen py-20">
+        <div className="grid lg:grid-cols-2 gap-12 items-center min-h-screen py-16">
           {/* Left Content */}
           <div className="space-y-8">
             <div className="space-y-4">

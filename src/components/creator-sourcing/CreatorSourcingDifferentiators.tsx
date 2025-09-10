@@ -38,10 +38,10 @@ const CreatorSourcingDifferentiators = () => {
   ]
 
   return (
-    <section className="py-20 bg-gradient-to-br from-gray-50 to-white">
+    <section className="py-12 bg-gradient-to-br from-gray-50 to-white">
       <div className="container">
         {/* Header */}
-        <div className="text-center mb-16">
+        <div className="text-center mb-12">
           <h2 className="text-3xl lg:text-5xl font-bold mb-6 text-gray-900">
             Why VideoForce.ai is <span className="text-gradient">Different</span>
           </h2>
@@ -51,7 +51,7 @@ const CreatorSourcingDifferentiators = () => {
         </div>
 
         {/* Differentiators Grid */}
-        <div className="grid lg:grid-cols-3 gap-8 mb-16">
+        <div className="grid lg:grid-cols-3 gap-8 mb-12">
           {/* First two in top row */}
           {differentiators.slice(0, 2).map((diff, index) => (
             <div key={index} className="bg-white rounded-3xl p-8 shadow-lg hover:shadow-xl transition-shadow">
@@ -77,7 +77,7 @@ const CreatorSourcingDifferentiators = () => {
         </div>
 
         {/* Bottom row - 2 items */}
-        <div className="grid lg:grid-cols-2 gap-8 max-w-4xl mx-auto mb-16">
+        <div className="grid lg:grid-cols-2 gap-8 max-w-4xl mx-auto mb-12">
           {differentiators.slice(3, 5).map((diff, index) => (
             <div key={index} className="bg-white rounded-3xl p-8 shadow-lg hover:shadow-xl transition-shadow">
               <div className={`w-16 h-16 rounded-2xl bg-gradient-to-r ${diff.gradient} flex items-center justify-center mb-6`}>

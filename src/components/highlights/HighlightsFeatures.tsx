@@ -60,11 +60,11 @@ const HighlightsFeatures = () => {
   ]
 
   return (
-    <section className="py-20 bg-gradient-to-br from-gray-50 to-white">
+    <section className="py-12 bg-gradient-to-br from-gray-50 to-white">
       <div className="container max-w-7xl">
 
         {/* Pricing Section */}
-        <div className="text-center mb-16">
+        <div className="text-center mb-12">
           <h2 className="text-3xl lg:text-4xl font-bold mb-4">
             Choose Your <span className="text-gradient">AI Video Plan</span>
           </h2>
@@ -126,8 +126,8 @@ const HighlightsFeatures = () => {
         </div>
 
         {/* Bottom CTA */}
-        <div className="text-center mt-16">
-          <p className="text-gray-600 mb-6">Need a custom plan? Have questions?</p>
+        <div className="text-center mt-12">
+          <p className="text-gray-600 mb-4">Need a custom plan? Have questions?</p>
           <Button 
             variant="outline" 
             size="lg" 

@@ -61,7 +61,7 @@ const PerformanceMediaAds = () => {
   ]
 
   return (
-    <section className="py-16 bg-gradient-to-b from-white to-gray-50">
+    <section className="py-12 bg-gradient-to-b from-white to-gray-50">
       <div className="container">
         {/* Header */}
         <div className="text-center mb-12">

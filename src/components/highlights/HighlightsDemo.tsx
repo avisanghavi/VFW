@@ -40,10 +40,10 @@ const HighlightsDemo = () => {
   }
 
   return (
-    <section className="py-20 bg-white">
+    <section className="py-12 bg-white">
       <div className="container max-w-6xl">
         {/* Header */}
-        <div className="text-center mb-16">
+        <div className="text-center mb-12">
           <h2 className="text-3xl lg:text-5xl font-bold mb-4">
             See Real <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">ROI Results</span> From Our Clients
           </h2>

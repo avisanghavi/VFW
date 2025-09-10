@@ -27,10 +27,10 @@ const CreatorSourcingProblem = () => {
   ]
 
   return (
-    <section className="py-20 bg-red-50/30">
+    <section className="py-12 bg-red-50/30">
       <div className="container">
         {/* Header */}
-        <div className="text-center mb-16">
+        <div className="text-center mb-12">
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-red-100 rounded-full mb-6">
             <AlertTriangle className="w-4 h-4 text-red-600" />
             <span className="text-sm font-medium text-red-700">The Problem</span>

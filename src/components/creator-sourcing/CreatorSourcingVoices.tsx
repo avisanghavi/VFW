@@ -22,10 +22,10 @@ const CreatorSourcingVoices = () => {
   ]
 
   return (
-    <section className="py-20 bg-gradient-to-br from-purple-50 via-white to-orange-50">
+    <section className="py-12 bg-gradient-to-br from-purple-50 via-white to-orange-50">
       <div className="container">
         {/* Header */}
-        <div className="text-center mb-16">
+        <div className="text-center mb-12">
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/60 backdrop-blur-sm rounded-full border border-purple-200/50 shadow-sm mb-6">
             <Quote className="w-4 h-4 text-purple-600" />
             <span className="text-sm font-medium text-gray-700">Customer Voices</span>

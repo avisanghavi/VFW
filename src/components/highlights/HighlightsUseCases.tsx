@@ -166,10 +166,10 @@ const HighlightsUseCases = () => {
   ]
 
   return (
-    <section className="py-20 bg-gradient-to-br from-gray-50 to-white">
+    <section className="py-12 bg-gradient-to-br from-gray-50 to-white">
       <div className="container max-w-7xl">
         {/* Header */}
-        <div className="text-center mb-16">
+        <div className="text-center mb-12">
           <div className="inline-flex items-center px-4 py-2 rounded-full bg-gradient-to-r from-blue-100 to-purple-100 border border-blue-200 mb-6">
             <TrendingUp className="w-4 h-4 text-blue-600 mr-2" />
             <span className="text-sm font-semibold text-blue-600 uppercase tracking-wide">Marketing Applications</span>
@@ -186,7 +186,7 @@ const HighlightsUseCases = () => {
         </div>
 
         {/* Content Elements Overview */}
-        <div className="mb-16">
+        <div className="mb-12">
           <h3 className="text-2xl font-bold text-center mb-8">Key Content Elements We Extract</h3>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {contentElements.map((element, index) => (

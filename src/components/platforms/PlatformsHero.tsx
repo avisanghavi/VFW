@@ -5,7 +5,7 @@ import { TrendingUp, Users, DollarSign, ArrowRight, Sparkles, Building, Star, Ta
 
 export default function PlatformsHero() {
   return (
-    <section className="relative py-16 lg:py-20 flex items-center overflow-hidden bg-gradient-to-br from-blue-50 via-white to-purple-50">
+    <section className="relative py-12 lg:py-16 flex items-center overflow-hidden bg-gradient-to-br from-blue-50 via-white to-purple-50">
       {/* Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute -top-40 -right-40 w-80 h-80 bg-gradient-to-r from-brand-purple/20 to-blue-500/20 rounded-full blur-3xl"></div>

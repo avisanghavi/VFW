@@ -5,7 +5,7 @@ import { TrendingUp, Zap, Target, RefreshCw, BarChart, Play, DollarSign } from "
 
 const PerformanceMediaHero = () => {
   return (
-    <section className="relative py-16 lg:py-20 flex items-center overflow-hidden bg-gradient-to-br from-white via-purple-50/30 to-orange-50/20">
+    <section className="relative py-12 lg:py-16 flex items-center overflow-hidden bg-gradient-to-br from-white via-purple-50/30 to-orange-50/20">
       {/* Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-1/4 -left-40 w-72 h-72 bg-purple-200/15 rounded-full blur-2xl will-change-transform"></div>

@@ -52,10 +52,10 @@ const CreatorSourcingBenefits = () => {
   ]
 
   return (
-    <section className="py-20 bg-gray-50">
+    <section className="py-12 bg-gray-50">
       <div className="container">
         {/* Header */}
-        <div className="text-center mb-16">
+        <div className="text-center mb-12">
           <span className="text-sm font-semibold text-brand-purple uppercase tracking-wide">
             COMPLETE SOLUTION
           </span>
@@ -68,7 +68,7 @@ const CreatorSourcingBenefits = () => {
         </div>
 
         {/* Benefits Grid */}
-        <div className="grid lg:grid-cols-2 gap-12 mb-20">
+        <div className="grid lg:grid-cols-2 gap-12 mb-12">
           {benefits.map((benefit, index) => (
             <div key={index} className="bg-white rounded-3xl p-8 shadow-lg">
               {/* Category Header */}

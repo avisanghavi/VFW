@@ -54,7 +54,7 @@ const HowItWorksSection = () => {
   ];
 
   return (
-    <section className="py-20 bg-white">
+    <section className="py-12 bg-white">
       <div className="container max-w-6xl">
         {/* Header section exactly like the image */}
         <div className="text-center mb-12">

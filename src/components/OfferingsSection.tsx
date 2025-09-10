@@ -54,7 +54,7 @@ const OfferingsSection = () => {
   ];
 
   return (
-    <section className="py-20 bg-gradient-to-b from-background to-secondary/30">
+    <section className="py-12 bg-gradient-to-b from-background to-secondary/30">
       <div className="container">
         <div className="text-center mb-16">
           <span className="text-sm font-semibold text-brand-purple uppercase tracking-wide">

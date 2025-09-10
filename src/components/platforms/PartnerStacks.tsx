@@ -108,7 +108,7 @@ const STACKS: Stack[] = [
 
 export default function PartnerStacks() {
   return (
-    <section className="py-16 bg-white">
+    <section className="py-12 bg-white">
       <div className="container">
         <h2 className="text-3xl lg:text-5xl font-bold text-center mb-2">Partner Ecosystem Stacks</h2>
         <p className="text-center text-muted-foreground max-w-3xl mx-auto mb-8">
