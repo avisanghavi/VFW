@@ -3,6 +3,7 @@
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Users, Video, TrendingUp, ArrowRight, Sparkles } from "lucide-react"
+import Header from "@/components/Header"
 
 export default function SignInClient() {
   const agents = [
@@ -42,7 +43,9 @@ export default function SignInClient() {
   }
 
   return (
-    <main className="min-h-screen bg-gradient-to-br from-white via-purple-50/30 to-orange-50/20">
+    <div className="min-h-screen bg-gradient-to-br from-white via-purple-50/30 to-orange-50/20">
+      <Header />
+      <main>
       {/* Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-1/4 -left-40 w-72 h-72 bg-purple-200/15 rounded-full blur-2xl"></div>
@@ -113,6 +116,7 @@ export default function SignInClient() {
           </div>
         </div>
       </div>
-    </main>
+      </main>
+    </div>
   )
 }
