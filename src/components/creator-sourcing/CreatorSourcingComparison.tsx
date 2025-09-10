@@ -163,12 +163,22 @@ const CreatorSourcingComparison = () => {
               Join the brands that switched from UGC Factory, Billo, and Grin to achieve 10X faster creator sourcing and 8X ROAS.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button variant="secondary" size="xl" className="bg-white text-purple-600 hover:bg-gray-100">
+              <Button 
+                variant="secondary" 
+                size="xl" 
+                className="bg-white text-purple-600 hover:bg-gray-100"
+                onClick={() => window.open('https://app.videofusion.io/auth/sign-up', '_blank')}
+              >
                 <Zap className="w-5 h-5" />
                 Start Free Trial
               </Button>
-              <Button variant="outline" size="xl" className="border-white text-white hover:bg-white/10">
-                Compare All Features
+              <Button 
+                variant="outline" 
+                size="xl" 
+                className="border-white text-white hover:bg-white/10"
+                onClick={() => window.location.href = '/book-call'}
+              >
+                Book a Call
               </Button>
             </div>
             <p className="text-sm opacity-75 mt-4">

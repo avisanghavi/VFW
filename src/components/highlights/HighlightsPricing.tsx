@@ -138,6 +138,7 @@ const HighlightsPricing = () => {
                     ? 'bg-white text-purple-600 hover:bg-gray-100' 
                     : 'bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white'
                 } rounded-xl py-3 font-semibold`}
+                onClick={() => window.open('https://app.videofusion.io/auth/sign-up', '_blank')}
               >
                 {plan.name === "Free" ? <Upload className="w-4 h-4 mr-2" /> : <Zap className="w-4 h-4 mr-2" />}
                 {plan.cta}
@@ -169,7 +170,11 @@ const HighlightsPricing = () => {
 
         {/* Final CTA */}
         <div className="text-center mt-12">
-          <Button size="lg" className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white text-lg px-12 py-4 h-auto rounded-2xl shadow-xl">
+          <Button 
+            size="lg" 
+            className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white text-lg px-12 py-4 h-auto rounded-2xl shadow-xl"
+            onClick={() => window.open('https://app.videofusion.io/auth/sign-up', '_blank')}
+          >
             <Upload className="w-5 h-5 mr-3" />
             Start Free Trial - Test Our AI Today
             <ArrowRight className="w-5 h-5 ml-3" />

@@ -47,7 +47,7 @@ const CARDS: Card[] = [
 
 export default function WhoShouldIntegrate() {
   return (
-    <section className="py-16 border-t">
+    <section className="py-12 border-t">
       <div className="container">
         <h2 className="text-3xl lg:text-5xl font-bold text-center mb-3">Who Should Integrate Highlights</h2>
         <p className="text-center text-muted-foreground max-w-3xl mx-auto">

@@ -130,13 +130,23 @@ const CreatorSourcingBenefits = () => {
           </div>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button variant="secondary" size="xl" className="bg-white text-purple-600 hover:bg-gray-100">
+            <Button 
+              variant="secondary" 
+              size="xl" 
+              className="bg-white text-purple-600 hover:bg-gray-100"
+              onClick={() => window.open('https://app.videofusion.io/auth/sign-up', '_blank')}
+            >
               <Users className="w-5 h-5" />
-              Start Creator Discovery
+              Start Free Trial
             </Button>
-            <Button variant="outline" size="xl" className="border-white text-white hover:bg-white/10">
+            <Button 
+              variant="outline" 
+              size="xl" 
+              className="border-white text-white hover:bg-white/10"
+              onClick={() => window.location.href = '/book-call'}
+            >
               <Zap className="w-5 h-5" />
-              See Live Demo
+              Book a Call
             </Button>
           </div>
         </div>

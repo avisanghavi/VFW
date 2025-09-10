@@ -20,7 +20,7 @@ const Header = () => {
           <a href="/highlights" className="text-sm font-medium text-gray-700 hover:text-brand-purple transition-colors">
             Highlights
           </a>
-          <a href="#proof" className="text-sm font-medium text-gray-700 hover:text-brand-purple transition-colors">
+          <a href="/performance-media" className="text-sm font-medium text-gray-700 hover:text-brand-purple transition-colors">
             Performance Media
           </a>
           <a href="/partners" className="text-sm font-medium text-gray-700 hover:text-brand-purple transition-colors">
@@ -36,14 +36,16 @@ const Header = () => {
 
         {/* CTA Buttons */}
         <div className="flex items-center space-x-3">
-          <a href="/highlights">
+          <a href="https://app.videofusion.io/auth/sign-up" target="_blank" rel="noopener noreferrer">
             <Button variant="gradient" size="lg" className="rounded-lg font-medium">
-              Start Free
+              Start Free Trial
             </Button>
           </a>
-          <Button variant="outline" size="lg" className="rounded-lg font-medium border-gray-300 text-gray-700 hover:bg-gray-50">
-            Book a Demo
-          </Button>
+          <a href="/book-call">
+            <Button variant="outline" size="lg" className="rounded-lg font-medium border-gray-300 text-gray-700 hover:bg-gray-50">
+              Book a Call
+            </Button>
+          </a>
         </div>
       </div>
     </header>

@@ -1,3 +1,5 @@
+"use client"
+
 import { Button } from "@/components/ui/button";
 import { Users, Zap, Target, CheckCircle, TrendingUp, Sparkles } from "lucide-react";
 
@@ -127,7 +129,11 @@ const HowItWorksSection = () => {
               {/* CTA Buttons */}
               {index === 1 ? (
                 <div className="mt-6">
-                  <Button variant="gradient" className="w-full">
+                  <Button 
+                    variant="gradient" 
+                    className="w-full"
+                    onClick={() => window.open('https://app.videofusion.io/auth/sign-up', '_blank')}
+                  >
                     🚀 Start Free with Highlights
                   </Button>
                   <p className="text-xs text-gray-500 text-center mt-2">
@@ -135,7 +141,11 @@ const HowItWorksSection = () => {
                   </p>
                 </div>
               ) : (
-                <Button variant="outline" className="w-full mt-6 text-gray-700 border-gray-300 hover:bg-gray-50">
+                <Button 
+                  variant="outline" 
+                  className="w-full mt-6 text-gray-700 border-gray-300 hover:bg-gray-50"
+                  onClick={() => window.location.href = '/book-call'}
+                >
                   Learn More
                 </Button>
               )}

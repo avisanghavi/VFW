@@ -5,7 +5,6 @@ import PlatformsHero from '@/components/platforms/PlatformsHero'
 import WhoShouldIntegrate from '@/components/platforms/WhoShouldIntegrate'
 import TechIntegration from '@/components/platforms/TechIntegration'
 import SVMSection from '@/components/SVMSection'
-import PlatformsCTA from '@/components/platforms/PlatformsCTA'
 
 export const metadata: Metadata = {
   title: 'Partners - Highlights API & OEM Program',
@@ -20,9 +19,8 @@ export default function PartnersPage() {
       <main>
         <PlatformsHero />
         <WhoShouldIntegrate />
-        <SVMSection />
         <TechIntegration />
-        <PlatformsCTA />
+        <SVMSection />
       </main>
       <Footer />
     </div>

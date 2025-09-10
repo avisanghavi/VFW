@@ -44,10 +44,10 @@ const HeroSection = () => {
                   variant="gradient" 
                   size="xl" 
                   className="group relative overflow-hidden"
-                  onClick={() => window.location.href = '/highlights'}
+                  onClick={() => window.open('https://app.videofusion.io/auth/sign-up', '_blank')}
                 >
                   <Play className="w-5 h-5 group-hover:scale-110 transition-transform" />
-                  Start Free with Highlights
+                  Start Free Trial
                   <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </Button>
                 
@@ -55,8 +55,9 @@ const HeroSection = () => {
                   variant="outline" 
                   size="xl"
                   className="border-gray-200 hover:border-purple-300 hover:bg-purple-50/50"
+                  onClick={() => window.location.href = '/book-call'}
                 >
-                  Book a Demo
+                  Book a Call
                 </Button>
               </div>
               

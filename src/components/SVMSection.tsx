@@ -28,9 +28,9 @@ const SVMSection = () => {
   ];
 
   return (
-    <section className="py-20 bg-gradient-to-b from-secondary/30 to-background">
+    <section className="py-12 bg-gradient-to-b from-secondary/30 to-background">
       <div className="container">
-        <div className="text-center mb-16">
+        <div className="text-center mb-10">
           <span className="text-sm font-semibold text-brand-purple uppercase tracking-wide">
             PROPRIETARY TECHNOLOGY
           </span>

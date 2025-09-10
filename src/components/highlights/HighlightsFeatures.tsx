@@ -117,6 +117,7 @@ const HighlightsFeatures = () => {
                     : 'border-2 border-purple-500 text-purple-600 hover:bg-purple-50'
                 }`}
                 variant={plan.popular ? "default" : "outline"}
+                onClick={() => window.open('https://app.videofusion.io/auth/sign-up', '_blank')}
               >
                 {plan.cta}
               </Button>
@@ -127,7 +128,12 @@ const HighlightsFeatures = () => {
         {/* Bottom CTA */}
         <div className="text-center mt-16">
           <p className="text-gray-600 mb-6">Need a custom plan? Have questions?</p>
-          <Button variant="outline" size="lg" className="border-purple-500 text-purple-600 hover:bg-purple-50">
+          <Button 
+            variant="outline" 
+            size="lg" 
+            className="border-purple-500 text-purple-600 hover:bg-purple-50"
+            onClick={() => window.location.href = '/book-call'}
+          >
             Contact Sales
           </Button>
         </div>

@@ -39,22 +39,24 @@ const CreatorSourcingHero = () => {
             {/* CTA Section */}
             <div className="space-y-4">
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button 
-                  variant="gradient" 
-                  size="xl" 
-                  className="group relative overflow-hidden"
-                >
+         <Button 
+           variant="gradient" 
+           size="xl" 
+           className="group relative overflow-hidden"
+           onClick={() => window.location.href = '/book-call'}
+         >
                   <Users className="w-5 h-5 group-hover:scale-110 transition-transform" />
-                  Book a Demo
+                  Book a Call
                   <Zap className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </Button>
                 
-                <Button 
-                  variant="outline" 
-                  size="xl"
-                  className="border-gray-200 hover:border-purple-300 hover:bg-purple-50/50"
-                >
-                  Get 3 Creators Free*
+         <Button 
+           variant="outline" 
+           size="xl"
+           className="border-gray-200 hover:border-purple-300 hover:bg-purple-50/50"
+           onClick={() => window.open('https://app.videofusion.io/auth/sign-up', '_blank')}
+         >
+                  Start Free Trial
                 </Button>
               </div>
               

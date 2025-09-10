@@ -228,7 +228,11 @@ const HighlightsUseCases = () => {
             <p className="text-lg mb-6 opacity-90">
               Join brands saving 90% of editing time while increasing engagement by 5X
             </p>
-            <Button size="lg" className="bg-white text-purple-600 hover:bg-gray-100 text-lg px-8 py-4 h-auto rounded-xl shadow-lg">
+            <Button 
+              size="lg" 
+              className="bg-white text-purple-600 hover:bg-gray-100 text-lg px-8 py-4 h-auto rounded-xl shadow-lg"
+              onClick={() => window.open('https://app.videofusion.io/auth/sign-up', '_blank')}
+            >
               <Play className="w-5 h-5 mr-2" />
               Start Your Free Trial Now
               <ArrowRight className="w-5 h-5 ml-2" />

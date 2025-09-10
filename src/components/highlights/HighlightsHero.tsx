@@ -58,12 +58,21 @@ const HighlightsHero = () => {
 
             {/* CTAs */}
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg" className="bg-gradient-to-r from-brand-purple to-brand-orange hover:opacity-90 text-white shadow-xl text-lg px-8 py-4 h-auto">
+         <Button 
+           size="lg" 
+           className="bg-gradient-to-r from-brand-purple to-brand-orange hover:opacity-90 text-white shadow-xl text-lg px-8 py-4 h-auto"
+           onClick={() => window.open('https://app.videofusion.io/auth/sign-up', '_blank')}
+         >
                 <Play className="w-5 h-5 mr-2" />
-                Start FREE Forever - No Credit Card
+                Start Free Trial
               </Button>
-              <Button variant="outline" size="lg" className="border-brand-purple text-brand-purple hover:bg-brand-purple hover:text-white text-lg px-6 py-4 h-auto">
-                See Live ROI Examples
+         <Button 
+           variant="outline" 
+           size="lg" 
+           className="border-brand-purple text-brand-purple hover:bg-brand-purple hover:text-white text-lg px-6 py-4 h-auto"
+           onClick={() => window.location.href = '/book-call'}
+         >
+                Book a Call
                 <ArrowRight className="w-5 h-5 ml-2" />
               </Button>
             </div>

@@ -1,3 +1,5 @@
+"use client"
+
 import { Button } from "@/components/ui/button";
 import { Rocket, Brain, Shield, CheckCircle, TrendingUp, Sparkles, Zap, Crown } from "lucide-react";
 
@@ -117,7 +119,11 @@ const OfferingsSection = () => {
               {/* CTA Button for step 2 */}
               {index === 1 && (
                 <div className="mt-6">
-                  <Button variant="gradient" className="w-full">
+                  <Button 
+                    variant="gradient" 
+                    className="w-full"
+                    onClick={() => window.open('https://app.videofusion.io/auth/sign-up', '_blank')}
+                  >
                     Start Free Trial
                   </Button>
                   <p className="text-xs text-muted-foreground text-center mt-2">
@@ -128,7 +134,11 @@ const OfferingsSection = () => {
 
               {/* Learn More for other steps */}
               {index !== 1 && (
-                <Button variant="outline" className="w-full mt-6">
+                <Button 
+                  variant="outline" 
+                  className="w-full mt-6"
+                  onClick={() => window.location.href = '/book-call'}
+                >
                   Get Started
                 </Button>
               )}
