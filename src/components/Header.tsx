@@ -36,13 +36,13 @@ const Header = () => {
 
         {/* CTA Buttons */}
         <div className="flex items-center space-x-3">
-          <a href="https://app.videofusion.io/auth/sign-up" target="_blank" rel="noopener noreferrer">
-            <Button variant="gradient" size="lg" className="rounded-lg font-medium">
-              Start Free Trial
+          <a href="https://app.videofusion.io/auth/sign-in" target="_blank" rel="noopener noreferrer">
+            <Button variant="ghost" size="lg" className="rounded-lg font-medium text-gray-700 hover:text-brand-purple hover:bg-gray-50">
+              Sign In
             </Button>
           </a>
           <a href="/book-call">
-            <Button variant="outline" size="lg" className="rounded-lg font-medium border-gray-300 text-gray-700 hover:bg-gray-50">
+            <Button variant="gradient" size="lg" className="rounded-lg font-medium">
               Book a Call
             </Button>
           </a>
