@@ -41,7 +41,7 @@ const SVMSection = () => {
             Predicts which authentic content will convert before you spend on ads
           </p>
           <p className="text-sm text-muted-foreground mt-4">
-            Powered by patented Highlights extraction • Validates real content performance vs synthetic AI
+            Powered by Patented Small Video Model • Validates real content performance vs synthetic AI
           </p>
         </div>
 
@@ -68,7 +68,7 @@ const SVMSection = () => {
             Experience SVM Technology →
           </Button>
           <p className="text-sm text-muted-foreground">
-            Try our patent-protected Small Video Model with 10 minutes free processing
+            Try our Patented Small Video Model with 10 minutes free processing
           </p>
         </div>
       </div>

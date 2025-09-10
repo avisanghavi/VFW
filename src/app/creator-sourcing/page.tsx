@@ -8,7 +8,7 @@ import SVMSection from "@/components/SVMSection"
 
 export const metadata: Metadata = {
   title: 'Creator Sourcing AI Agent | VideoForce.ai',
-  description: 'Lower your CAC, scale your reach, own content forever. AI Agent sources authentic UGC, influencer, and viral content 24/7 with patented technology.',
+  description: 'Lower your CAC, scale your reach, own content forever. AI Agent sources authentic UGC, influencer, and viral content 24/7 with Patented Small Video Model.',
   openGraph: {
     title: 'Creator Sourcing AI Agent | VideoForce.ai',
     description: 'Lower your CAC, scale your reach, own content forever. AI Agent sources authentic UGC, influencer, and viral content 24/7.',

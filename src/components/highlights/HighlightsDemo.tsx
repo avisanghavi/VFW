@@ -48,7 +48,7 @@ const HighlightsDemo = () => {
             See Real <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">ROI Results</span> From Our Clients
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            <strong>Consumer brands are seeing 5X higher engagement</strong> and saving 90% of their editing time. See how our patent-protected AI transforms single videos into multi-channel revenue drivers.
+            <strong>Consumer brands are seeing 5X higher engagement</strong> and saving 90% of their editing time. See how our Patented Small Video Model transforms single videos into multi-channel revenue drivers.
           </p>
         </div>
 

@@ -32,7 +32,7 @@ const CreatorSourcingBenefits = () => {
       icon: Brain,
       gradient: "from-blue-500 to-cyan-500",
       items: [
-        { feature: "94% Match Accuracy Prediction", description: "Patented AI predicts creator-brand success" },
+        { feature: "94% Match Accuracy Prediction", description: "Patented Small Video Model predicts creator-brand success" },
         { feature: "Audience Overlap Analysis", description: "Find creators with your exact target audience" },
         { feature: "Viral Content Intelligence", description: "Identify content with viral potential" },
         { feature: "Cultural Context Understanding", description: "Ensure content resonates with local markets" }
@@ -63,7 +63,7 @@ const CreatorSourcingBenefits = () => {
             Everything You Need for <span className="text-gradient">Creator Success</span>
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            From discovery to campaign optimization, our patented AI technology handles every aspect of creator sourcing and management.
+            From discovery to campaign optimization, our Patented Small Video Model handles every aspect of creator sourcing and management.
           </p>
         </div>
 
@@ -78,7 +78,7 @@ const CreatorSourcingBenefits = () => {
                 </div>
                 <div>
                   <h3 className="text-2xl font-bold text-gray-900">{benefit.category}</h3>
-                  <p className="text-gray-600">Powered by patented AI technology</p>
+                  <p className="text-gray-600">Powered by Patented Small Video Model</p>
                 </div>
               </div>
 

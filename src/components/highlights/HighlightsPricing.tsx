@@ -12,7 +12,7 @@ const HighlightsPricing = () => {
       description: "Perfect for testing our AI technology",
       features: [
         "10 minutes video processing/month",
-        "Patent-protected AI technology",
+        "Patented Small Video Model",
         "Upload MP4 & MOV files (up to 10MB each)",
         "1GB secure cloud storage",
         "1 project workspace to organize content",
@@ -30,7 +30,7 @@ const HighlightsPricing = () => {
       description: "Ideal for content creators & small teams",
       features: [
         "100 minutes video processing/month",
-        "Advanced patent-protected AI algorithms",
+        "Patented Small Video Model",
         "Upload larger files (up to 100MB each)",
         "2GB secure cloud storage",
         "Unlimited project workspaces",
@@ -49,7 +49,7 @@ const HighlightsPricing = () => {
       description: "For agencies & professional creators", 
       features: [
         "300 minutes video processing/month",
-        "Exclusive patent-protected technology",
+        "Patented Small Video Model",
         "Large file uploads (up to 1GB each)",
         "50GB secure cloud storage",
         "Unlimited project workspaces",
@@ -78,7 +78,7 @@ const HighlightsPricing = () => {
           </h2>
           
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            The only patent-protected AI video highlights technology in the market. Upload your videos, let our AI find the best moments, and export professional highlights - starting completely free.
+            The only Patented Small Video Model for highlights in the market. Upload your videos, let our AI find the best moments, and export professional highlights - starting completely free.
           </p>
         </div>
 
@@ -179,7 +179,7 @@ const HighlightsPricing = () => {
             Start Free Trial - Test Our AI Today
             <ArrowRight className="w-5 h-5 ml-3" />
           </Button>
-          <p className="text-sm text-gray-500 mt-4">The only patent-protected AI video technology - Try risk-free with 10 minutes of processing</p>
+          <p className="text-sm text-gray-500 mt-4">The only Patented Small Video Model technology - Try risk-free with 10 minutes of processing</p>
         </div>
       </div>
     </section>

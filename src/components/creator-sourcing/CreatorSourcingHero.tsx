@@ -18,7 +18,7 @@ const CreatorSourcingHero = () => {
             {/* Badge */}
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/60 backdrop-blur-sm rounded-full border border-purple-200/50 shadow-sm">
               <Sparkles className="w-4 h-4 text-purple-600" />
-              <span className="text-sm font-medium text-gray-700">Patented AI Creator Discovery</span>
+              <span className="text-sm font-medium text-gray-700">Patented Small Video Model</span>
             </div>
 
             {/* Main Heading */}
@@ -32,7 +32,7 @@ const CreatorSourcingHero = () => {
               </h1>
               
               <p className="text-xl text-gray-600 max-w-lg leading-relaxed">
-                VideoForce.ai sources authentic UGC, influencer, and viral/meme content from the right creators — powered by AI Agents that work 24/7 and our patented Search & Discovery engine.
+                VideoForce.ai sources authentic UGC, influencer, and viral/meme content from the right creators — powered by AI Agents that work 24/7 and our Patented Small Video Model.
               </p>
             </div>
 
@@ -97,7 +97,7 @@ const CreatorSourcingHero = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900">Viral Content Prediction</h4>
-                    <p className="text-sm text-gray-600">Patented tech identifies viral potential before it peaks</p>
+                    <p className="text-sm text-gray-600">Patented Small Video Model identifies viral potential before it peaks</p>
                   </div>
                 </div>
 

@@ -19,7 +19,7 @@ const CreatorSourcingDifferentiators = () => {
     },
     {
       icon: Compass,
-      title: "Patented Search & Discovery Tech",
+      title: "Patented Small Video Model",
       description: "Find creators by content style, audience match, and brand fit — not just follower counts",
       gradient: "from-orange-500 to-red-500"
     },

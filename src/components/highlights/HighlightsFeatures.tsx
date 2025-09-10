@@ -13,7 +13,7 @@ const HighlightsFeatures = () => {
       description: "Perfect for testing our AI technology",
       features: [
         "10 minutes video processing/month",
-        "Patent-protected AI technology",
+        "Patented Small Video Model",
         "Upload MP4 & MOV files (up to 10MB each)",
         "1GB total cloud storage",
         "1 project workspace",
@@ -30,7 +30,7 @@ const HighlightsFeatures = () => {
       description: "Ideal for content creators & small teams",
       features: [
         "100 minutes video processing/month",
-        "Patent-protected AI algorithms",
+        "Patented Small Video Model",
         "Upload larger files (up to 100MB each)",
         "2GB total cloud storage",
         "Unlimited project workspaces",
@@ -47,7 +47,7 @@ const HighlightsFeatures = () => {
       description: "For agencies & professional creators",
       features: [
         "300 minutes video processing/month",
-        "Exclusive patent-protected technology",
+        "Patented Small Video Model",
         "Large file uploads (up to 1GB each)",
         "50GB total cloud storage",
         "Unlimited project workspaces",
@@ -69,7 +69,7 @@ const HighlightsFeatures = () => {
             Choose Your <span className="text-gradient">AI Video Plan</span>
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            The only patent-protected AI video highlights technology. Process your videos, extract key moments, and export professional highlights - starting completely free forever.
+            The only Patented Small Video Model for highlights. Process your videos, extract key moments, and export professional highlights - starting completely free forever.
           </p>
         </div>
 

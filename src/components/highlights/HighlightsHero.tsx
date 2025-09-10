@@ -19,7 +19,7 @@ const HighlightsHero = () => {
             <div className="space-y-4">
               <div className="inline-flex items-center px-4 py-2 rounded-full bg-gradient-to-r from-brand-purple/10 to-brand-orange/10 border border-brand-purple/20">
                 <Sparkles className="w-4 h-4 text-brand-purple mr-2" />
-                <span className="text-sm font-semibold text-brand-purple">⚡ Patent-Protected AI Technology</span>
+                <span className="text-sm font-semibold text-brand-purple">⚡ Patented Small Video Model</span>
               </div>
               
               <h1 className="text-4xl lg:text-6xl font-bold leading-tight">
@@ -27,7 +27,7 @@ const HighlightsHero = () => {
               </h1>
               
               <p className="text-xl text-muted-foreground leading-relaxed max-w-2xl">
-                <strong>90% of video content sits unused</strong> costing brands millions. Our patent-protected AI instantly extracts revenue-driving moments—hooks, social proof, CTAs—and multiplies your ROI across every marketing channel.
+                <strong>90% of video content sits unused</strong> costing brands millions. Our Patented Small Video Model instantly extracts revenue-driving moments—hooks, social proof, CTAs—and multiplies your ROI across every marketing channel.
               </p>
             </div>
 
@@ -85,7 +85,7 @@ const HighlightsHero = () => {
               </div>
               <div className="flex items-center gap-2">
                 <CheckCircle className="w-4 h-4 text-green-600" />
-                <span>Patent-Protected Technology</span>
+                <span>Patented Small Video Model</span>
               </div>
               <div className="flex items-center gap-2">
                 <CheckCircle className="w-4 h-4 text-green-600" />
@@ -144,7 +144,7 @@ const HighlightsHero = () => {
             </div>
 
             <div className="absolute top-1/2 -right-8 bg-white rounded-2xl shadow-xl p-4 border">
-              <div className="text-2xl font-bold text-purple-600">Patent</div>
+              <div className="text-2xl font-bold text-purple-600">SVM</div>
               <div className="text-sm text-gray-600">Protected</div>
             </div>
           </div>

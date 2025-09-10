@@ -181,7 +181,7 @@ const HighlightsUseCases = () => {
           </h2>
           
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Brands invest over <strong>$200 billion annually</strong> in influencer marketing, UGC, and branded video—yet 90% of video content remains underutilized due to manual editing inefficiencies. Our patent-protected AI automatically extracts the right elements for each channel.
+            Brands invest over <strong>$200 billion annually</strong> in influencer marketing, UGC, and branded video—yet 90% of video content remains underutilized due to manual editing inefficiencies. Our Patented Small Video Model automatically extracts the right elements for each channel.
           </p>
         </div>
 
@@ -237,7 +237,7 @@ const HighlightsUseCases = () => {
               Start Your Free Trial Now
               <ArrowRight className="w-5 h-5 ml-2" />
             </Button>
-            <p className="text-sm mt-4 opacity-75">Patent-protected technology • No credit card required • Instant access</p>
+            <p className="text-sm mt-4 opacity-75">Patented Small Video Model • No credit card required • Instant access</p>
           </div>
         </div>
 

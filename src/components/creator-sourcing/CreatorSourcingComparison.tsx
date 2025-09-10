@@ -76,7 +76,7 @@ const CreatorSourcingComparison = () => {
             Why VideoForce.ai <span className="text-gradient">Dominates</span> Creator Sourcing
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            See how our patented AI technology outperforms every major competitor in the creator sourcing space.
+            See how our Patented Small Video Model outperforms every major competitor in the creator sourcing space.
           </p>
         </div>
 
@@ -93,7 +93,7 @@ const CreatorSourcingComparison = () => {
                   <Crown className="w-5 h-5 text-yellow-300" />
                   <span className="font-bold">VideoForce.ai</span>
                 </div>
-                <div className="text-xs opacity-90">Patented AI</div>
+                <div className="text-xs opacity-90">Patented SVM</div>
               </div>
               {competitors.map((competitor, index) => (
                 <div key={index} className="text-center">

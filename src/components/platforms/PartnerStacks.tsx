@@ -58,7 +58,7 @@ const STACKS: Stack[] = [
       'Partners can leverage Highlights to help small businesses turn their underutilized product videos and UGC assets into high-performing shoppable clips — embedded on websites, PDP, shared on social, and reused across campaigns.',
       'Repurpose existing video and generate product highlight reels for PDPs, ads, and campaigns',
     ],
-    useCases: ['Shoppable video clips (HPSPC - VideoForce\'s patented wining formula)', 'PDP use (Hooks, Proof)'],
+    useCases: ['Shoppable video clips (HPSPC - VideoForce\'s Patented SVM formula)', 'PDP use (Hooks, Proof)'],
     integration: ['Highlights auto generated off of Product Page', 'API integration into commerce engine ("Prod Highlights")'],
     channels: 'Product pages, ads, social, email',
   },
@@ -93,7 +93,6 @@ const STACKS: Stack[] = [
     solution: [
       'Partners can quickly produce video highlights from sourced brand and UGC videos, and stich into ad creatives for quick launch into paid and organic campaigns',
       'Auto-detect the best clips --> speeds up ad editing, social channel targeting, influencer recap reels',
-      'Auto generate channel-specific highlight ads (6s bumpers, 15s reels, 30s CTV spots)',
       'Turn short form press & thought leadership videos into media-ready highlight clips',
     ],
     useCases: [

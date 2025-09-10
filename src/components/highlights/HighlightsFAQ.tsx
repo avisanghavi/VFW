@@ -9,7 +9,7 @@ const HighlightsFAQ = () => {
   const faqs = [
     {
       question: "How does the AI identify viral moments?",
-      answer: "Our patented Small Video Model (SVM) analyzes over 50 factors including emotional peaks, engagement patterns, visual composition, and speech cadence. It's trained on 3B+ viral posts to predict which moments will perform best on each platform.",
+      answer: "Our Patented Small Video Model (SVM) analyzes over 50 factors including emotional peaks, engagement patterns, visual composition, and speech cadence. It's trained on 3B+ viral posts to predict which moments will perform best on each platform.",
       icon: Target
     },
     {

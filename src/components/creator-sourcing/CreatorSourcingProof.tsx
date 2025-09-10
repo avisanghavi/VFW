@@ -67,7 +67,7 @@ const CreatorSourcingProof = () => {
       icon: Target,
       metric: "94%",
       label: "Match Accuracy",
-      comparison: "Patented AI prediction",
+      comparison: "Patented SVM prediction",
       color: "text-green-600"
     },
     {
@@ -91,7 +91,7 @@ const CreatorSourcingProof = () => {
             Real Brands, Real <span className="text-gradient">ROI</span>
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            See how brands achieve exceptional ROI and growth with our patented creator sourcing technology.
+            See how brands achieve exceptional ROI and growth with our Patented Small Video Model.
           </p>
         </div>
 

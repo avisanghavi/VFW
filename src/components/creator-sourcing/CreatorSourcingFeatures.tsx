@@ -56,7 +56,7 @@ const CreatorSourcingFeatures = () => {
       capabilities: [
         {
           title: "Trend Prediction Engine",
-          description: "Identify viral trends 72 hours before they peak using patented AI",
+          description: "Identify viral trends 72 hours before they peak using Patented Small Video Model",
           icon: Clock
         },
         {

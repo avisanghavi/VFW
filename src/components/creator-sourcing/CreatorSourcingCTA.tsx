@@ -54,7 +54,7 @@ const CreatorSourcingCTA = () => {
                 VideoForce.ai
               </div>
               <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                Your AI Agent combines patented technology with proven creator sourcing expertise to deliver guaranteed results 24/7.
+                Your AI Agent combines Patented Small Video Model with proven creator sourcing expertise to deliver guaranteed results 24/7.
               </p>
             </div>
           </div>
