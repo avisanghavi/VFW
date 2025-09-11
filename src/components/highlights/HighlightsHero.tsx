@@ -27,7 +27,7 @@ const HighlightsHero = () => {
               </h1>
               
               <p className="text-xl text-muted-foreground leading-relaxed max-w-2xl">
-                Turn videos into viral hits—AI spots your best hooks, magnetic CTAs, authentic testimonials, and standout moments, instantly optimized for TikTok, Reels & YouTube Shorts.
+                Highlights spots your best hooks, magnetic CTAs, authentic testimonials, and standout moments, instantly optimized for TikTok, Reels & YouTube Shorts.
               </p>
             </div>
 
