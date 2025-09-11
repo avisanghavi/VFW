@@ -181,7 +181,7 @@ const HighlightsUseCases = () => {
           </h2>
           
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Brands invest over <strong>$200 billion annually</strong> in influencer marketing, UGC, and branded video—yet 90% of video content remains underutilized due to manual editing inefficiencies. Our Patented Small Video Model automatically extracts the right elements for each channel.
+            Brands invest over <strong>$200 billion annually</strong> in influencer marketing, UGC, and branded video—yet majority of video content remains underutilized due to manual editing inefficiencies. Our Patented Small Video Model automatically extracts the right elements for each channel.
           </p>
         </div>
 
