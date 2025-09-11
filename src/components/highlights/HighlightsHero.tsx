@@ -27,7 +27,7 @@ const HighlightsHero = () => {
               </h1>
               
               <p className="text-xl text-muted-foreground leading-relaxed max-w-2xl">
-                <strong>89% of businesses use video marketing</strong>, but most create separate content for each platform. Our Patented Small Video Model extracts the perfect moments from your existing videos and optimizes them for every channel—automatically.
+                Turn videos into viral hits—AI spots your best hooks, magnetic CTAs, authentic testimonials, and standout moments, instantly optimized for TikTok, Reels & YouTube Shorts.
               </p>
             </div>
 
