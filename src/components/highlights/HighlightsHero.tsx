@@ -23,7 +23,7 @@ const HighlightsHero = () => {
               </div>
               
               <h1 className="text-4xl lg:text-6xl font-bold leading-tight">
-                Turn One Video Into <span className="text-gradient">Multi-Channel Revenue</span>
+                Convert Existing Content Into <span className="text-gradient">Viral Shorts in Seconds</span>
               </h1>
               
               <p className="text-xl text-muted-foreground leading-relaxed max-w-2xl">
