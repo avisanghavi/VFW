@@ -27,7 +27,7 @@ const HighlightsHero = () => {
               </h1>
               
               <p className="text-xl text-muted-foreground leading-relaxed max-w-2xl">
-                <strong>90% of video content sits unused</strong> costing brands millions. Our Patented Small Video Model instantly extracts revenue-driving moments—hooks, social proof, CTAs—and multiplies your ROI across every marketing channel.
+                <strong>89% of businesses use video marketing</strong>, but most create separate content for each platform. Our Patented Small Video Model extracts the perfect moments from your existing videos and optimizes them for every channel—automatically.
               </p>
             </div>
 
