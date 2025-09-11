@@ -23,7 +23,7 @@ const HighlightsHero = () => {
               </div>
               
               <h1 className="text-4xl lg:text-6xl font-bold leading-tight">
-                Turn <span className="text-gradient">$200B</span> in Unused Video Content Into <span className="text-gradient">Revenue</span>
+                Turn One Video Into <span className="text-gradient">Multi-Channel Revenue</span>
               </h1>
               
               <p className="text-xl text-muted-foreground leading-relaxed max-w-2xl">
