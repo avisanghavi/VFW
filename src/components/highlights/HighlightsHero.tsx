@@ -13,9 +13,9 @@ const HighlightsHero = () => {
       </div>
 
       <div className="container relative z-10">
-        <div className="grid lg:grid-cols-2 gap-12 items-center min-h-screen py-16">
+        <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Left Content */}
-          <div className="space-y-8">
+          <div className="space-y-10">
             <div className="space-y-4">
               <div className="inline-flex items-center px-4 py-2 rounded-full bg-gradient-to-r from-brand-purple/10 to-brand-orange/10 border border-brand-purple/20">
                 <Sparkles className="w-4 h-4 text-brand-purple mr-2" />
@@ -23,11 +23,11 @@ const HighlightsHero = () => {
               </div>
               
               <h1 className="text-4xl lg:text-6xl font-bold leading-tight">
-                Convert Existing Content Into <span className="text-gradient">Viral Shorts in Seconds</span>
+                Extract <span className="text-gradient">Winning Moments</span> From Any Video in Seconds
               </h1>
               
               <p className="text-xl text-muted-foreground leading-relaxed max-w-2xl">
-                Highlights spots your best hooks, magnetic CTAs, authentic testimonials, and standout moments, instantly optimized for TikTok, Reels & YouTube Shorts.
+                Our AI finds your gold: killer hooks, magnetic CTAs, authentic testimonials, and standout moments. Turn any long video into viral clips for TikTok, Reels & YouTube Shorts.
               </p>
             </div>
 
@@ -116,7 +116,7 @@ const HighlightsHero = () => {
 
               {/* Sample Extracted Highlights */}
               <div className="space-y-3">
-                <div className="text-sm font-semibold text-gray-700 mb-3">⚡ AI Found These Viral Moments:</div>
+                <div className="text-sm font-semibold text-gray-700 mb-3">⚡ AI Extracted These Winning Moments:</div>
                 <div className="flex items-center gap-3 p-3 rounded-lg bg-purple-50 border border-purple-200">
                   <div className="w-2 h-2 bg-brand-purple rounded-full animate-pulse"></div>
                   <div className="text-sm">&ldquo;Wait until you see what happens next...&rdquo; <span className="text-green-600 font-medium">(Hook - 0:03)</span></div>

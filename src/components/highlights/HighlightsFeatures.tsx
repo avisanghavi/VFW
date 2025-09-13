@@ -66,10 +66,10 @@ const HighlightsFeatures = () => {
         {/* Pricing Section */}
         <div className="text-center mb-12">
           <h2 className="text-3xl lg:text-4xl font-bold mb-4">
-            Choose Your <span className="text-gradient">AI Video Plan</span>
+            Start <span className="text-gradient">Extracting Gold</span> From Your Videos
           </h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            The only Patented Small Video Model for highlights. Process your videos, extract key moments, and export professional highlights - starting completely free forever.
+          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+            Our patented Small Video Model extracts winning moments in seconds, not hours. Get hooks that stop scrolling, testimonials that build trust, and CTAs that convert—automatically. Start extracting gold with 10 free minutes forever.
           </p>
         </div>
 

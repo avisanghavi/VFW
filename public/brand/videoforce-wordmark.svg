@@ -1,0 +1,22 @@
+<svg width="280" height="60" viewBox="0 0 280 60" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="VideoForce.ai">
+  <defs>
+    <linearGradient id="vfGradWord" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#F97316"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- VideoForce Text Only -->
+  <g font-family="system-ui, -apple-system, sans-serif">
+    <!-- Video -->
+    <text x="0" y="35" font-size="32" font-weight="800" letter-spacing="-0.02em" fill="#1F2937">Video</text>
+    <!-- Force -->
+    <text x="110" y="35" font-size="32" font-weight="800" letter-spacing="-0.02em" fill="url(#vfGradWord)">Force</text>
+    <!-- .ai -->
+    <text x="210" y="35" font-size="26" font-weight="600" fill="#6B7280">.ai</text>
+  </g>
+  
+  <!-- Tagline -->
+  <text x="0" y="52" font-size="12" font-weight="500" fill="#6B7280" font-family="system-ui, -apple-system, sans-serif">Patented AI Video Intelligence</text>
+</svg>
+

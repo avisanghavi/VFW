@@ -105,7 +105,7 @@ const ProofSection = () => {
   }
 
   return (
-    <section id="proof" className="py-20 bg-background">
+    <section id="proof" className="py-16 bg-background">
       <div className="container">
         <div className="text-center mb-10">
           <span className="text-sm font-semibold text-brand-purple uppercase tracking-wide">PROOF IT WORKS</span>

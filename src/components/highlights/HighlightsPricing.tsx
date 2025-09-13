@@ -64,7 +64,7 @@ const HighlightsPricing = () => {
   ]
 
   return (
-    <section className="py-20 bg-white">
+    <section className="py-16 bg-white">
       <div className="container max-w-7xl">
         {/* Header */}
         <div className="text-center mb-16">

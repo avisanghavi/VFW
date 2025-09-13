@@ -5,7 +5,7 @@ import { TrendingUp, Users, DollarSign, ArrowRight, Sparkles, Building, Star, Ta
 
 export default function PlatformsHero() {
   return (
-    <section className="relative py-12 lg:py-16 flex items-center overflow-hidden bg-gradient-to-br from-blue-50 via-white to-purple-50">
+    <section className="relative min-h-screen flex items-center overflow-hidden bg-gradient-to-br from-blue-50 via-white to-purple-50">
       {/* Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute -top-40 -right-40 w-80 h-80 bg-gradient-to-r from-brand-purple/20 to-blue-500/20 rounded-full blur-3xl"></div>
@@ -14,9 +14,9 @@ export default function PlatformsHero() {
       </div>
 
       <div className="container relative z-10">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+        <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Left Content */}
-          <div className="space-y-8">
+          <div className="space-y-10">
             <div className="space-y-4">
               <div className="inline-flex items-center px-4 py-2 rounded-full bg-gradient-to-r from-blue-500/10 to-brand-purple/10 border border-blue-500/20">
                 <Building className="w-4 h-4 text-blue-600 mr-2" />

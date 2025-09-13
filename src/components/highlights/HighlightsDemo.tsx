@@ -45,10 +45,10 @@ const HighlightsDemo = () => {
         {/* Header */}
         <div className="text-center mb-12">
           <h2 className="text-3xl lg:text-5xl font-bold mb-4">
-            See Real <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">ROI Results</span> From Our Clients
+            Watch AI <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">Extract Gold</span> From Any Video
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            <strong>Consumer brands are seeing 5X higher engagement</strong> and saving 90% of their editing time. See how our Patented Small Video Model transforms single videos into multi-channel revenue drivers.
+            See how our patented technology extracts winning moments in seconds, not hours. Real brands getting 5X engagement and 90% time savings.
           </p>
         </div>
 

@@ -12,9 +12,9 @@ const CreatorSourcingHero = () => {
       <div className="absolute bottom-1/4 -right-40 w-80 h-80 bg-orange-200/15 rounded-full blur-2xl"></div>
       
       <div className="container relative z-10">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+        <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Left Content */}
-          <div className="space-y-6">
+          <div className="space-y-10">
             {/* Badge */}
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/60 backdrop-blur-sm rounded-full border border-purple-200/50 shadow-sm">
               <Sparkles className="w-4 h-4 text-purple-600" />
@@ -60,9 +60,6 @@ const CreatorSourcingHero = () => {
                 </Button>
               </div>
               
-              <div className="text-sm text-gray-500 text-center">
-                <span>* Requires purchase of VideoForce.ai ad services. Creator compensation not included.</span>
-              </div>
             </div>
           </div>
 

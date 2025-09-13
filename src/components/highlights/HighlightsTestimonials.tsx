@@ -42,7 +42,7 @@ const HighlightsTestimonials = () => {
   ]
 
   return (
-    <section className="py-20 bg-gradient-to-br from-gray-50 to-white">
+    <section className="py-16 bg-gradient-to-br from-gray-50 to-white">
       <div className="container">
         {/* Stats Bar */}
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 mb-20">

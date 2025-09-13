@@ -5,6 +5,9 @@ import HighlightsHero from '@/components/highlights/HighlightsHero'
 import HighlightsFeatures from '@/components/highlights/HighlightsFeatures'
 import HighlightsDemo from '@/components/highlights/HighlightsDemo'
 import HighlightsUseCases from '@/components/highlights/HighlightsUseCases'
+import HighlightsWorkflow from '@/components/highlights/HighlightsWorkflow'
+import HighlightsProof from '@/components/highlights/HighlightsProof'
+import HighlightsFAQ from '@/components/highlights/HighlightsFAQ'
 import SVMSection from '@/components/SVMSection'
 
 export const metadata: Metadata = {
@@ -25,8 +28,11 @@ export default function HighlightsPage() {
       <main>
         <HighlightsHero />
         <HighlightsDemo />
+        <HighlightsWorkflow />
         <HighlightsUseCases />
+        <HighlightsProof />
         <HighlightsFeatures />
+        <HighlightsFAQ />
         <SVMSection />
       </main>
       <Footer />
